@@ -3,9 +3,14 @@ import {
   Box,
   Heading,
   Image,
-  useColorModeValue
+  useColorModeValue,
+  Button
 } from '@chakra-ui/react'
 import Section from '../components/sections'
+import Paragraph from '../components/paragraph'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import NextLink from 'next/link'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
@@ -48,7 +53,23 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>Paragraph</p>
+        <Paragraph>Paragraph</Paragraph>
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My Portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+      <Section delay={(0.2)}>
+        <Heading as="h3" variant="section-title" >
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>2020-2022</BioYear>
+          Completed Bachelors in Computer Science
+        </BioSection>
       </Section>
     </Container>
   )
