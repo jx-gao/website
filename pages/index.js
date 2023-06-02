@@ -11,6 +11,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Jia-Xin Gao
           </Heading>
+          <p>Web dev / DevOps / Cloud</p>
         </Box>
       </Box>
     </Container>
