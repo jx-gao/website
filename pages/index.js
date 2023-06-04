@@ -78,7 +78,7 @@ const Page = () => {
             Credits
           </Heading>
           <p>This website is built based on <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama's website</a></p>
-          <p>3D model <a href='https://skfb.ly/oH8MY' target='_blank'>Pusheen vs Noodle</a> by porgy is licensed under <a href='http://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution</a></p>
+          <p>3D model <a href='https://skfb.ly/oH8MY' target='_blank'>Pusheen vs Noodle</a> by porgy is licensed under <a href='http://creativecommons.org/licenses/by/4.0/' target='_blank'>CC BY 3.0</a></p>
         </Section>
       </Container>
     </Layout>
