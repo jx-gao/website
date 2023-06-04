@@ -71,6 +71,13 @@ const Page = () => {
           Completed Bachelors in Computer Science
         </BioSection>
       </Section>
+      <Section delay={(0.3)}>
+        <Heading as="h3" variant="section-title" >
+          Credits
+        </Heading>
+        <p>This website is built based on <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama's website</a></p>
+        <p>3D model <a href='https://skfb.ly/oH8MY' target='_blank'>Pusheen vs Noodle</a> by porgy is licensed under <a href='http://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution</a></p>
+      </Section>
     </Container>
   )
 }
