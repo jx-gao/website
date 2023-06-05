@@ -24,7 +24,7 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a software engineer!
+          Hello, and welcome to my website!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -55,7 +55,9 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-          <Paragraph>Paragraph</Paragraph>
+          <Paragraph>
+            I am a Software Engineer / Developer currently working at Entelect in South Africa. I have experience working with full stack web development, DevOps, and cloud technologies (mostly AWS).
+          </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -66,14 +68,35 @@ const Page = () => {
         </Section>
         <Section delay={(0.2)}>
           <Heading as="h3" variant="section-title" >
-            Bio
+            Biography
           </Heading>
           <BioSection>
-            <BioYear>2020-2022</BioYear>
-            Completed Bachelors in Computer Science
+            <BioYear>2023</BioYear>
+            Joined Entelect as a Software Engineer, I currently work for the Standard Bank Digital team on cloud technologies and DevOps.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Graduated with a Bachelors in Computer Science with Cum Laude from University of the Witwatersrand, Johannesburg South Africa.
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Worked for Amazon (AWS) Cape Town as a Software Development Engineer Intern for 3 months.
           </BioSection>
         </Section>
-        <Section delay={(0.3)}>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Certifications
+          </Heading>
+          AWS Certified Cloud Practitioner
+        </Section>
+        <Section delay={0.4}>
+          <Heading as="h3" variant="section-title">
+            Socials
+          </Heading>
+          LinkedIn 
+          Github
+        </Section>
+        <Section delay={(0.5)}>
           <Heading as="h3" variant="section-title" >
             Credits
           </Heading>
