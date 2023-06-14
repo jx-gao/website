@@ -59,7 +59,7 @@ const Page = () => {
             I am a Software Engineer / Developer currently working at Entelect in South Africa. I have experience working with full stack web development, DevOps, and cloud technologies (mostly AWS).
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Portfolio
               </Button>
